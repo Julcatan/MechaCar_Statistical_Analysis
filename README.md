@@ -37,7 +37,7 @@ RStudio
  sufficient evidence that the slope of our linear model is not zero.
  
  
-  _**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**__
+  _**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
 The linear model does not predict the mpg of MechaCar prototypes effectively.
 
@@ -56,10 +56,10 @@ Our analysis result shows that the variance of the suspension coils does not exc
 
 ![image](https://user-images.githubusercontent.com/91682586/151034975-e67e179f-8b83-45b9-8ff1-6a8e829f3dca.png)
 
-The variance does not exceed  the maximum variance of 100 pounds per sqare inch for Lot 1 and 2 either, 
+The variance does not exceed  the maximum variance of 100 pounds per sqare inch for Lot 1 and 2 either. 
 
-It does exceed the maximum variance of 100 pounds per sqare inch for Manufacturing Lot 3
-LOT 3 has a variance of 170.29
+**It does exceed the maximum variance of 100 pounds per sqare inch for Manufacturing Lot 3.
+LOT 3 has a variance of 170.29.**
 
 ![image](https://user-images.githubusercontent.com/91682586/151035153-8b41badb-c54f-4d3c-9d76-d82b16d30bbd.png)
 
