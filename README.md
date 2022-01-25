@@ -83,7 +83,7 @@ Therefore, we have sufficient evidence to state that the two means are _**not st
 ![image](https://user-images.githubusercontent.com/91682586/151057920-0f61b538-7fba-4a8c-a074-ce33a63dd297.png)
 Lot 1
 
-The result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is above our significance level. 
+For Lot1 the result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is above our significance level. 
 Therefore, we have sufficient evidence to state that the two means are _**statistically similar**._
 
 
@@ -91,17 +91,19 @@ Therefore, we have sufficient evidence to state that the two means are _**statis
 ![image](https://user-images.githubusercontent.com/91682586/151058133-77c516be-963e-4bd4-a65e-c2f435c81072.png)
 Lot 2
 
-The result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is above our significance level. 
+For Lot 2 the result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is above our significance level. 
 Therefore, we have sufficient evidence to state that the two means are _**statistically similar**._
 
 
 ![image](https://user-images.githubusercontent.com/91682586/151058277-f4e6135f-40af-4722-8cf3-ca1d58bbf7d9.png)
 Lot 3
 
-The result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is below our significance level. 
+For Lot 3 the result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is below our significance level. 
 Therefore, we have sufficient evidence to state that the two means are _**not statistically similar**._
 
 ---
+## Study Design: MechaCar vs Competition
+
 
 
 
