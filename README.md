@@ -52,7 +52,7 @@ The significant intercept could mean that the significant features (like **vehic
  _**The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**_
 
 
-Our analysis result shows that the variance of the suspension coils does not exeed 100 pounds per square inch for all manufacturing lots in total: 
+Our analysis result shows that the variance of the suspension coils does not exceed 100 pounds per square inch for all manufacturing lots in total: 
 
 ![image](https://user-images.githubusercontent.com/91682586/151034975-e67e179f-8b83-45b9-8ff1-6a8e829f3dca.png)
 
