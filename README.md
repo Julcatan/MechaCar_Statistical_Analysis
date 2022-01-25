@@ -2,7 +2,8 @@
 
 ##  Linear Regression to Predict MPG
  #### Summary of results
-  - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+ 
+  _**Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**_
 
 ![image](https://user-images.githubusercontent.com/91682586/150991707-6ca66111-c6fe-4e5c-851a-4f0c84f969c9.png)
 
@@ -10,8 +11,7 @@
   According to our results,  vehicle length and  ground_clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. 
   In other words the relationship between mpg and the coefficients vehicle length and ground clearance unlikely was by chance. Vehicle length and ground clearance have a   significant impact on mpg.
  
-  - Is the slope of the linear model considered to be zero? Why or why not?
- 
+   _**Is the slope of the linear model considered to be zero? Why or why not**?_
  ![image](https://user-images.githubusercontent.com/91682586/150993739-075a09d5-526d-4cbe-9461-eb102b1d9e33.png)
 
  The results show that the multiple linear regression equation can be written as: 
@@ -20,4 +20,4 @@
  
  
  
-  - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+  _**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**__
