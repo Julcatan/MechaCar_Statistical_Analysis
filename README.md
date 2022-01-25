@@ -74,10 +74,19 @@ The one-sample t-test is used to determine whether there is a statistical differ
 The result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is below our significance level. 
 Therefore, we have sufficient evidence to state that the two means are _**not statistically similar**._
 
+ - _T-test on each Lot
+_
+![image](https://user-images.githubusercontent.com/91682586/151054308-71f637cd-05a4-4b09-939b-ba957a2d0a34.png)
 
+Lot 1
 
+![image](https://user-images.githubusercontent.com/91682586/151054423-1415a87c-05a8-46f9-b957-09c9ba0bf8ec.png)
 
+Lot 2
 
+![image](https://user-images.githubusercontent.com/91682586/151054543-197f14c6-43ba-4cde-97e1-4013ed35aade.png)
+
+Lot 3
 
 
 
