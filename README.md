@@ -65,7 +65,7 @@ LOT 3 has a variance of 170.29.**
 
 
 ## T-Tests on Suspension Coils
-statistically different from the population mean of 1,500 pounds per square inch.
+statistically different from the population mean of 1,500 pounds per square inch?
 summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 one sample t-test
