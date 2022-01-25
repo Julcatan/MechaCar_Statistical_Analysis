@@ -1,8 +1,10 @@
 # MechaCar_Statistical_Analysis
 
-## Resources
+## Tools
 
 RStudio
+ - tidyverse library
+ - dplyr library
 
 ## Overview
 
@@ -12,7 +14,7 @@ RStudio
    - Collection of summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
    - T-tests to determine if the manufacturing lots are statistically different from the mean population
 
-
+---
 ##  Linear Regression to Predict MPG
 #### Summary of results
  
@@ -47,6 +49,7 @@ and in addition, the p-value of the linear regression analysis is 5.35e-11, whic
 The significant intercept could mean that the significant features (like **vehicle length** and **ground_clearance**) may need scaling or transforming to help improve the predictive power of the model. Alternatively, it may mean that there are other variables that can help explain the variability of our dependent variable mpg that have not been included in our model. We may have to change our independent variables and/or transform them and then re-evaluate your coefficients and significance.
 (see: Module 15.7.3)
 
+---
 ## Summary Statistics on Suspension Coils
 
  _**The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**_
@@ -63,7 +66,7 @@ LOT 3 has a variance of 170.29.**
 
 ![image](https://user-images.githubusercontent.com/91682586/151035153-8b41badb-c54f-4d3c-9d76-d82b16d30bbd.png)
 
-
+---
 ## T-Tests on Suspension Coils
 
  - _T-test across all manufacturing lots_
@@ -75,21 +78,30 @@ The result of the test shows, assuming our significance level is the common 0.05
 Therefore, we have sufficient evidence to state that the two means are _**not statistically similar**._
 
  - _T-test on each Lot_
+ I run three t-tests that compare each manufacturing lot against mean PSI of the population.
 
 ![image](https://user-images.githubusercontent.com/91682586/151057920-0f61b538-7fba-4a8c-a074-ce33a63dd297.png)
 Lot 1
+
+The result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is above our significance level. 
+Therefore, we have sufficient evidence to state that the two means are _**statistically similar**._
 
 
 
 ![image](https://user-images.githubusercontent.com/91682586/151058133-77c516be-963e-4bd4-a65e-c2f435c81072.png)
 Lot 2
 
+The result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is above our significance level. 
+Therefore, we have sufficient evidence to state that the two means are _**statistically similar**._
+
 
 ![image](https://user-images.githubusercontent.com/91682586/151058277-f4e6135f-40af-4722-8cf3-ca1d58bbf7d9.png)
 Lot 3
 
+The result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is below our significance level. 
+Therefore, we have sufficient evidence to state that the two means are _**not statistically similar**._
 
-
+---
 
 
 
