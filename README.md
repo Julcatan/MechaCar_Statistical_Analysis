@@ -65,15 +65,18 @@ LOT 3 has a variance of 170.29.**
 
 
 ## T-Tests on Suspension Coils
-statistically different from the population mean of 1,500 pounds per square inch?
-summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
+ - _T-test across all manufacturing lots_
 The one-sample t-test is used to determine whether there is a statistical difference between the means of a sample dataset and a hypothesized, potential population dataset.
 
 ![image](https://user-images.githubusercontent.com/91682586/151051930-17313138-7553-4735-a1d3-ad427ff46d33.png)
 
 The result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is below our significance level. 
-Therefore, we have sufficient evidence to state that the two means are not statistically similar.
+Therefore, we have sufficient evidence to state that the two means are _**not statistically similar**._
+
+
+
+
 
 
 
