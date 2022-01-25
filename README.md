@@ -6,6 +6,11 @@ RStudio
 
 ## Overview
 
+ - Analyse car Prototype features to solve production troubles that are blocking the manufacturing team’s progress.
+ - Analysis includes:
+   - multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+   - Collection of summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+   - T-tests to determine if the manufacturing lots are statistically different from the mean population
 
 
 ##  Linear Regression to Predict MPG
@@ -34,7 +39,11 @@ RStudio
  
   _**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**__
 
-The linear model predicts the mpg of MechaCar prototypes effectively.
+The linear model does not predict the mpg of MechaCar prototypes effectively.
 
-The r-squared value is 0.7149, which means that roughly 70% of the variablilty of our dependent variable (mpg predictions) is explained using this linear model. 
-In addition, the p-value of the linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05%. 
+Even though the r-squared value is 0.7149, which means that roughly 70% of the variablilty of our dependent variable (mpg predictions) is explained using this linear model 
+and in addition, the p-value of the linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05% we do have an intercept that is statistically significant. The intercept term explains a significant amount of variability in the dependent variable when all independent vairables are equal to zero. 
+
+The significant intercept could mean that the significant features (like **vehicle length** and **ground_clearance**) may need scaling or transforming to help improve the predictive power of the model. Alternatively, it may mean that there are other variables that can help explain the variability of our dependent variable mpg that have not been included in our model. We may have to change our independent variables and/or transform them and then re-evaluate your coefficients and significance.
+(see: Module 15.7.3)
+
