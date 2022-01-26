@@ -77,7 +77,7 @@ The result of the test shows, assuming our significance level is the common 0.05
 Therefore, we have sufficient evidence to state that the two means are _**not statistically similar**._
 
  - _T-test on each Lot_
- I run three t-tests that compare each manufacturing lot against mean PSI of the population.
+  - three t-tests that compare each manufacturing lot against mean PSI of the population.
 
 ![image](https://user-images.githubusercontent.com/91682586/151057920-0f61b538-7fba-4a8c-a074-ce33a63dd297.png)
 Lot 1
