@@ -59,7 +59,7 @@ Our analysis result shows that the variance of the suspension coils does not exc
 
 ![image](https://user-images.githubusercontent.com/91682586/151034975-e67e179f-8b83-45b9-8ff1-6a8e829f3dca.png)
 
-The variance does not exceed  the maximum variance of 100 pounds per sqare inch for Lot 1 and 2 either. 
+The variance does not exceed the maximum variance of 100 pounds per sqare inch for Lot 1 and 2 either. 
 
 **It does exceed the maximum variance of 100 pounds per sqare inch for Manufacturing Lot 3.
 LOT 3 has a variance of 170.29.**
@@ -103,6 +103,43 @@ Therefore, we have sufficient evidence to state that the two means are _**not st
 
 ---
 ## Study Design: MechaCar vs Competition
+
+A statistical study to quantify how the MechaCar performs against the competition would look at features of MechaCar compared to the competitors, current add projected sales,
+compare pricing models,and analyse the marketing strategy.
+
+Some examples of the questions to be asked would be:
+  
+  -  **Is there a statistical difference between the average number of Purchases compared to the competition?** 
+     
+     - Data to collect: 
+      - Competitors sample Data number of purchases 
+      - internal sample Data showing MechaCars number of purchases
+     - Metrics to be tested:
+      - Number of purchases
+     - Method to use: two sample t-test
+        why: It is a method used to test whether the population means of two groups are equal or not.  
+     - null hypotheses: There is no statistical difference between the main number of purchases of MechaCar and the competition.
+     - alternative hypotheses: There is a statistical difference between the main number of purchases of MechaCar and the competition 
+  
+ 
+  -  **How does MechaCar compare regarding Price, Reliability, and Security ratings?** 
+
+   - Data to collect:     
+    - Customer ratings for features of MechaCAr and the Competition
+   - Metrics to be tested: 
+    - Customer Rating for Price
+    - Customer Rating for Reliability
+    - Customer Rating for Security
+   
+   - null hypotheses:  Price, Reliabilty, and Security ratings have no influence on the average sales between MechaCar and the competition  
+   - alternative hypotheses: Price, Reliabilty, and Security ratings have no influence on the average sales between MechaCar and the competition. 
+ 
+   - Method: Multiple linear regression
+      - Why: The statistical technique can use several explanatory variables to predict the outcome of a response variable
+  
+ 
+
+
 
 short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 In your description, address the following questions:
