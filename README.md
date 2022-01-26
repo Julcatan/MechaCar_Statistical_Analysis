@@ -107,9 +107,10 @@ Therefore, we have sufficient evidence to state that the two means are _**not st
 A statistical study to quantify how the MechaCar performs against the competition would look at features of MechaCar compared to the competitors, current add projected sales,
 compare pricing models,and analyse the marketing strategy.
 
-Some examples of the questions to be asked would be:
+####**Some examples of the questions to be asked would be:**
+____
   
-  -  **Is there a statistical difference between the average number of Purchases compared to the competition?** 
+  ##  **Is there a statistical difference between the average number of Purchases compared to the competition?** 
      
      - Data to collect: 
       - Competitors sample Data number of purchases 
@@ -117,19 +118,19 @@ Some examples of the questions to be asked would be:
      - Metrics to be tested:
       - Number of purchases
      - Method to use: two sample t-test
-        why: It is a method used to test whether the population means of two groups are equal or not.  
+      - why: It is a method used to test whether the population means of two groups are equal or not.  
      - null hypotheses: There is no statistical difference between the main number of purchases of MechaCar and the competition.
      - alternative hypotheses: There is a statistical difference between the main number of purchases of MechaCar and the competition 
   
- 
-  -  **How does MechaCar compare regarding Price, Reliability, and Security ratings?** 
+ ___
+  ##   **How does MechaCar compare regarding Price, Reliability, and Security ratings?** 
 
    - Data to collect:     
-    - Customer ratings for features of MechaCAr and the Competition
+     - Customer ratings for features of MechaCAr and the Competition
    - Metrics to be tested: 
-    - Customer Rating for Price
-    - Customer Rating for Reliability
-    - Customer Rating for Security
+     - Customer Rating for Price
+     - Customer Rating for Reliability
+     - Customer Rating for Security
    
    - null hypotheses:  Price, Reliabilty, and Security ratings have no influence on the average sales between MechaCar and the competition  
    - alternative hypotheses: Price, Reliabilty, and Security ratings have no influence on the average sales between MechaCar and the competition. 
@@ -141,11 +142,6 @@ Some examples of the questions to be asked would be:
 
 
 
-short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+
 
 
