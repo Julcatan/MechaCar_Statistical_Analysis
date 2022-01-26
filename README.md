@@ -38,7 +38,7 @@ RStudio
  sufficient evidence that the slope of our linear model is not zero.
  
  
-  _**Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
+  **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
 The linear model does not predict the mpg of MechaCar prototypes effectively.
 
@@ -120,7 +120,7 @@ ____
      - why: It is a method used to test whether the population means of two groups are equal or not.  
    
    - null hypotheses: There is no statistical difference between the main number of purchases of MechaCar and the competition.
-   - alternative hypotheses: There is a statistical difference between the main number of purchases of MechaCar and the competition 
+   - alternative hypotheses: There is a statistical difference between the main number of purchases of MechaCar and the competition. 
   
  ___
   #####   **How does MechaCar compare regarding Price, Reliability, and Security ratings?** 
@@ -132,7 +132,7 @@ ____
      - Customer Rating for Reliability
      - Customer Rating for Security
    
-   - null hypotheses:  Price, Reliabilty, and Security ratings have no influence on the average sales between MechaCar and the competition  
+   - null hypotheses:  Price, Reliabilty, and Security ratings have no influence on the average sales between MechaCar and the competition.  
    - alternative hypotheses: Price, Reliabilty, and Security ratings have no influence on the average sales between MechaCar and the competition. 
  
    - Method: Multiple linear regression
