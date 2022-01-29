@@ -40,13 +40,13 @@ RStudio
  
   **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
 
-The linear model does not predict the mpg of MechaCar prototypes effectively.
+The r-squared value is 0.7149, which means that roughly 70% of the variablilty of our dependent variable (mpg predictions) is explained using this linear model. 
+In addition, the p-value of the linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05%. 
 
-Even though the r-squared value is 0.7149, which means that roughly 70% of the variablilty of our dependent variable (mpg predictions) is explained using this linear model 
-and in addition, the p-value of the linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05% we do have an intercept that is statistically significant. The intercept term explains a significant amount of variability in the dependent variable when all independent vairables are equal to zero. 
-
-The significant intercept could mean that the significant features (like **vehicle length** and **ground_clearance**) may need scaling or transforming to help improve the predictive power of the model. Alternatively, it may mean that there are other variables that can help explain the variability of our dependent variable mpg that have not been included in our model. We may have to change our independent variables and/or transform them and then re-evaluate your coefficients and significance.
+We do have an intercept that is statistically significant. The intercept term explains a significant amount of variability in the dependent variable when all independent variables are equal to zero. The significant intercept could mean that the significant features (like **vehicle length** and **ground_clearance**) may need scaling or transforming to help improve the predictive power of the model. Alternatively, it may mean that there are other variables that can help explain the variability of our dependent variable mpg that have not been included in our model. We may have to change our independent variables and/or transform them and then re-evaluate your coefficients and significance to improve the model.
 (see: Module 15.7.3)
+
+_In summary the overall picture indicates that the linear model does predict the mpg of MechaCar prototypes effectively._
 
 ---
 ## Summary Statistics on Suspension Coils
@@ -70,11 +70,11 @@ LOT 3 has a variance of 170.29.**
 
  - _T-test across all manufacturing lots_
 The one-sample t-test is used to determine whether there is a statistical difference between the means of a sample dataset and a hypothesized, potential population dataset.
+![image](https://user-images.githubusercontent.com/91682586/151663805-fb084311-0272-474c-b1a5-d454b0b407c9.png)
 
-![image](https://user-images.githubusercontent.com/91682586/151051930-17313138-7553-4735-a1d3-ad427ff46d33.png)
 
-The result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is below our significance level. 
-Therefore, we have sufficient evidence to state that the two means are _**not statistically similar**._
+The result of the test shows, assuming our significance level is the common 0.05 percent, that our p-value is above our significance level. 
+Therefore, we have sufficient evidence to state that the two means are _**statistically similar**._
 
  - _T-test on each Lot_
   - three t-tests that compare each manufacturing lot against mean PSI of the population.
